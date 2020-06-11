@@ -1,0 +1,41 @@
+body {
+	background: #fafafa;
+}
+
+p {
+	color: #999;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	font-family: 'Poppins', sans-serif;
+}
+
+/**
+ * Content.
+ */
+#content {
+	top: 0;
+	right: 0;
+	width: calc(100% - 250px);
+	min-height: 100vh;
+	position: absolute;
+	transition: all 0.3s;
+}
+
+#content.active {
+	width: 100%;
+}
+
+.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 400px;
+}
+
+.main-content {
+	padding: 0 24px;
+}

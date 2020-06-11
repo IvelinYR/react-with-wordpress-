@@ -1,0 +1,12 @@
+.posts-container {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-content img{
+    width: 100%;
+}

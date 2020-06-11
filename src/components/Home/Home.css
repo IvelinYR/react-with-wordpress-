@@ -1,0 +1,75 @@
+.show-more-btn {
+    width: 190px;
+    color: #64c040;
+    margin: 20px auto;
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    background: #3c3c3d;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.4s ease 0s;
+}
+
+.show-more-btn:hover {
+    width: 250px;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.read-more-btn {
+    float: right;
+    width: 200px;
+    color: #3c3c3d;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+    transition: all 0.4s;
+    border-radius: 10px;
+    border: 1px solid #3c3c3d;
+}
+
+@media only screen and (max-width: 400px) {
+    .read-more-btn {
+        width: 155px;
+    }
+}
+
+.read-more-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.read-more-btn span:after {
+    top: 0;
+    color: #64c040;
+    right: -20px;
+    opacity: 0;
+    content: '\00bb';
+    transition: 0.5s;
+    position: absolute;
+}
+
+.read-more-btn:hover span {
+    color: #3c3c3d;
+    padding-right: 25px;
+}
+
+.read-more-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
