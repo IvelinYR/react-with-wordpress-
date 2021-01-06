@@ -19,7 +19,7 @@
 	"homepage": "https://github.com/IvelinYR/wordpress-task#readme",
 	"dependencies": {
 		"@reach/router": "^1.2.1",
-		"axios": "^0.18.1",
+		"axios": "^0.21.1",
 		"classnames": "^2.2.6",
 		"eslint-config-standard": "^14.1.1",
 		"eslint-config-standard-react": "^9.2.0",
