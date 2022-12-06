@@ -24,7 +24,7 @@
 		"eslint-config-standard": "^14.1.1",
 		"eslint-config-standard-react": "^9.2.0",
 		"moment": "^2.24.0",
-		"qs": "^6.7.0",
+		"qs": "^6.9.7",
 		"querystringify": "^2.0.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
